@@ -35,4 +35,4 @@ fibonacciCounter(k);
 function fibonacciRecursion(amountOfNumbers) {
     return amountOfNumbers <= 1 ? amountOfNumbers : fibonacciRecursion(amountOfNumbers - 1) + fibonacciRecursion(amountOfNumbers - 2);
 }
-document.write("<br>Last fibonacci number is (using recursion) is " + fibonacciRecursion(k));
+document.write("<br>Last fibonacci number (using recursion) is " + fibonacciRecursion(k));
